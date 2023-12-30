@@ -1,0 +1,4 @@
+/home/barnett/electron_gun/build/CMakeFiles/sim.dir
+/home/barnett/electron_gun/build/CMakeFiles/Simulation.dir
+/home/barnett/electron_gun/build/CMakeFiles/edit_cache.dir
+/home/barnett/electron_gun/build/CMakeFiles/rebuild_cache.dir

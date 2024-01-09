@@ -529,6 +529,9 @@ CMakeFiles/sim.dir/construction.cc.o: \
  /home/barnett/software/geant4-install/include/Geant4/G4ApplicationState.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4UserTrackingAction.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4RunManagerKernel.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4Event.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4PrimaryVertex.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4PrimaryParticle.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4AnalysisManager.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \

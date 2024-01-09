@@ -1,6 +1,5 @@
-CMakeFiles/sim.dir/action.cc.o: /home/barnett/electron_gun/action.cc \
- /usr/include/stdc-predef.h /home/barnett/electron_gun/action.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4VUserActionInitialization.hh \
+CMakeFiles/sim.dir/generator.cc.o: \
+ /home/barnett/electron_gun/generator.cc /usr/include/stdc-predef.h \
  /home/barnett/electron_gun/generator.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4SystemOfUnits.hh \
@@ -327,90 +326,4 @@ CMakeFiles/sim.dir/action.cc.o: /home/barnett/electron_gun/action.cc \
  /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/RandPoissonQ.icc \
  /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/RandStudentT.h \
  /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/RandStudentT.icc \
- /usr/include/c++/11/math.h /home/barnett/electron_gun/run.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4UserRunAction.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4Run.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4Profiler.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4Profiler.icc \
- /home/barnett/software/geant4-install/include/Geant4/PTL/Globals.hh \
- /home/barnett/software/geant4-install/include/Geant4/PTL/Types.hh \
- /home/barnett/software/geant4-install/include/Geant4/PTL/Utility.hh \
- /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
- /usr/include/c++/11/bits/stl_multiset.h \
- /home/barnett/software/geant4-install/include/Geant4/G4AnalysisManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4VAnalysisManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4AnalysisManagerState.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4AnalysisVerbose.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4VTBaseHnManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4HnInformation.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4AnalysisUtilities.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4BinScheme.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4Fcn.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4VAnalysisManager.icc \
- /home/barnett/software/geant4-install/include/Geant4/G4HnManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4BaseAnalysisManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4NtupleBookingManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/tools/ntuple_booking \
- /home/barnett/software/geant4-install/include/Geant4/tools/cids \
- /home/barnett/software/geant4-install/include/Geant4/tools/cid \
- /home/barnett/software/geant4-install/include/Geant4/tools/typedefs \
- /home/barnett/software/geant4-install/include/Geant4/tools/forit \
- /home/barnett/software/geant4-install/include/Geant4/G4NtupleBookingManager.icc \
- /home/barnett/software/geant4-install/include/Geant4/G4VNtupleManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4VFileManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4BaseFileManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4VTHnFileManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4TH1ToolsManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4THnToolsManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4THnManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4THnManager.icc \
- /home/barnett/software/geant4-install/include/Geant4/G4THnMessenger.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4UImessenger.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4UIdirectory.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4UIcommand.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4UIparameter.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4UItokenNum.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4ApplicationState.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4THnToolsManager.icc \
- /home/barnett/software/geant4-install/include/Geant4/G4THnMessenger.icc \
- /home/barnett/software/geant4-install/include/Geant4/G4Tokenizer.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4TH2ToolsManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4TH3ToolsManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4TP1ToolsManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4TP2ToolsManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/tools/histo/h1d \
- /home/barnett/software/geant4-install/include/Geant4/tools/histo/h1 \
- /home/barnett/software/geant4-install/include/Geant4/tools/histo/b1 \
- /home/barnett/software/geant4-install/include/Geant4/tools/histo/base_histo \
- /home/barnett/software/geant4-install/include/Geant4/tools/histo/histo_data \
- /home/barnett/software/geant4-install/include/Geant4/tools/histo/axes \
- /home/barnett/software/geant4-install/include/Geant4/tools/histo/axis \
- /home/barnett/software/geant4-install/include/Geant4/tools/eqT \
- /home/barnett/software/geant4-install/include/Geant4/tools/histo/h2d \
- /home/barnett/software/geant4-install/include/Geant4/tools/histo/h2 \
- /home/barnett/software/geant4-install/include/Geant4/tools/histo/b2 \
- /home/barnett/software/geant4-install/include/Geant4/tools/histo/h3d \
- /home/barnett/software/geant4-install/include/Geant4/tools/histo/h3 \
- /home/barnett/software/geant4-install/include/Geant4/tools/histo/b3 \
- /home/barnett/software/geant4-install/include/Geant4/tools/histo/p1d \
- /home/barnett/software/geant4-install/include/Geant4/tools/histo/p1 \
- /home/barnett/software/geant4-install/include/Geant4/tools/histo/profile_data \
- /home/barnett/software/geant4-install/include/Geant4/tools/histo/p2d \
- /home/barnett/software/geant4-install/include/Geant4/tools/histo/p2 \
- /home/barnett/software/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc \
- /home/barnett/software/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
- /home/barnett/software/geant4-install/include/Geant4/G4GenericFileManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4GenericFileManager.icc \
- /home/barnett/electron_gun/event.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4UserEventAction.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4Event.hh \
- /home/barnett/software/geant4-install/include/Geant4/evtdefs.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4HCofThisEvent.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4VHitsCollection.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4DCofThisEvent.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4VDigiCollection.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4TrajectoryContainer.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4VTrajectory.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4VUserEventInformation.hh
+ /usr/include/c++/11/math.h

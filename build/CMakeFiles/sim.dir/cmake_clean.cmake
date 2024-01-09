@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sim.dir/construction.cc.o.d"
   "CMakeFiles/sim.dir/detector.cc.o"
   "CMakeFiles/sim.dir/detector.cc.o.d"
+  "CMakeFiles/sim.dir/event.cc.o"
+  "CMakeFiles/sim.dir/event.cc.o.d"
   "CMakeFiles/sim.dir/generator.cc.o"
   "CMakeFiles/sim.dir/generator.cc.o.d"
   "CMakeFiles/sim.dir/physics.cc.o"

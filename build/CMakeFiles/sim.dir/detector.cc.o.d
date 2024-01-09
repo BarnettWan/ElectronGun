@@ -1,11 +1,7 @@
-CMakeFiles/sim.dir/action.cc.o: /home/barnett/electron_gun/action.cc \
- /usr/include/stdc-predef.h /home/barnett/electron_gun/action.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4VUserActionInitialization.hh \
- /home/barnett/electron_gun/generator.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4SystemOfUnits.hh \
- /home/barnett/software/geant4-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
- /home/barnett/software/geant4-install/include/Geant4/G4ParticleGun.hh \
+CMakeFiles/sim.dir/detector.cc.o: /home/barnett/electron_gun/detector.cc \
+ /usr/include/stdc-predef.h /home/barnett/electron_gun/detector.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VHit.hh \
  /home/barnett/software/geant4-install/include/Geant4/globals.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4ios.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4Types.hh \
@@ -238,16 +234,32 @@ CMakeFiles/sim.dir/action.cc.o: /home/barnett/electron_gun/action.cc \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/barnett/software/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4Step.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4ThreeVector.hh \
  /home/barnett/software/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /home/barnett/software/geant4-install/include/Geant4/CLHEP/Utility/defs.h \
  /home/barnett/software/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/barnett/software/geant4-install/include/Geant4/G4ParticleDefinition.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+ /home/barnett/software/geant4-install/include/Geant4/geomdefs.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4RotationMatrix.hh \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Vector/Rotation.h \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Vector/LorentzVector.h \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Vector/LorentzVector.icc \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.h \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Vector/RotationX.h \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Vector/RotationX.icc \
  /home/barnett/software/geant4-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
- /home/barnett/software/geant4-install/include/Geant4/G4PDefManager.hh \
- /usr/include/c++/11/stdlib.h \
- /home/barnett/software/geant4-install/include/Geant4/pwdefs.hh \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Vector/RotationY.h \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Vector/RotationY.icc \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Vector/RotationZ.h \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Vector/RotationZ.icc \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Vector/Rotation.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4GeomSplitter.hh \
+ /home/barnett/software/geant4-install/include/Geant4/geomwdefs.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4AutoLock.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4Threading.hh \
  /usr/include/c++/11/condition_variable \
@@ -260,24 +272,134 @@ CMakeFiles/sim.dir/action.cc.o: /home/barnett/electron_gun/action.cc \
  /usr/include/c++/11/bits/atomic_futex.h \
  /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/thread \
  /usr/include/c++/11/bits/this_thread_sleep.h \
- /home/barnett/software/geant4-install/include/Geant4/G4ParticleDefinition.icc \
- /home/barnett/software/geant4-install/include/Geant4/G4PrimaryVertex.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4StepPoint.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4Allocator.hh \
  /usr/include/c++/11/cstddef \
  /home/barnett/software/geant4-install/include/Geant4/G4AllocatorPool.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4PrimaryParticle.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4ParticleMomentum.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4ParticleTable.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4ParticleTableIterator.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4ParticleTable.icc \
- /home/barnett/software/geant4-install/include/Geant4/Randomize.hh \
- /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/Randomize.h \
- /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/DualRand.h \
- /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/RandomEngine.h \
+ /home/barnett/software/geant4-install/include/Geant4/G4SteppingControl.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4StepStatus.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4TouchableHandle.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VTouchable.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VTouchable.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4ReferenceCountedHandle.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4Material.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4Element.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4Isotope.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4IonisParamElm.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4IsotopeVector.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4ElementTable.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4ElementVector.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4MaterialPropertiesIndex.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4PhysicsFreeVector.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4PhysicsVector.hh \
  /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
+ /home/barnett/software/geant4-install/include/Geant4/G4Log.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4PhysicsVectorType.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4PhysicsVector.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4IonisParamMat.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4DensityEffectCalculator.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4SandiaTable.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4OrderedTable.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4DataVector.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4DataVector.icc \
+ /usr/include/assert.h \
+ /home/barnett/software/geant4-install/include/Geant4/G4MaterialTable.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4LogicalVolume.hh \
+ /usr/include/c++/11/memory \
+ /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
+ /usr/include/c++/11/bits/shared_ptr_atomic.h \
+ /usr/include/c++/11/backward/auto_ptr.h \
+ /usr/include/c++/11/pstl/glue_memory_defs.h \
+ /home/barnett/software/geant4-install/include/Geant4/G4Region.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4Region.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4LogicalVolume.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4StepPoint.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4TrackVector.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4Profiler.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4Profiler.icc \
+ /home/barnett/software/geant4-install/include/Geant4/PTL/Globals.hh \
+ /home/barnett/software/geant4-install/include/Geant4/PTL/Types.hh \
+ /home/barnett/software/geant4-install/include/Geant4/PTL/Utility.hh \
+ /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
+ /usr/include/c++/11/bits/stl_multiset.h \
+ /home/barnett/software/geant4-install/include/Geant4/G4Step.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4Track.hh \
+ /home/barnett/software/geant4-install/include/Geant4/trkdefs.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4DynamicParticle.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4ParticleDefinition.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4PDefManager.hh \
+ /usr/include/c++/11/stdlib.h \
+ /home/barnett/software/geant4-install/include/Geant4/pwdefs.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4ParticleDefinition.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4LorentzVector.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4ParticleMomentum.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4ElectronOccupancy.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4DynamicParticle.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4TrackStatus.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VUserTrackInformation.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4PhysicsModelCatalog.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4Track.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4HCofThisEvent.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VHitsCollection.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VReadOutGeometry.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4SensitiveVolumeList.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4TouchableHistory.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4NavigationHistory.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4AffineTransform.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4Transform3D.hh \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Geometry/Point3D.h \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
+ /home/barnett/software/geant4-install/include/Geant4/G4AffineTransform.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4NavigationLevel.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4NavigationLevelRep.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4NavigationLevelRep.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4NavigationLevel.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4NavigationHistoryPool.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4NavigationHistory.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4TouchableHistory.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4CollectionNameVector.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VSDFilter.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4RunManager.hh \
+ /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
+ /usr/include/c++/11/bits/list.tcc \
+ /home/barnett/software/geant4-install/include/Geant4/rundefs.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4Event.hh \
+ /home/barnett/software/geant4-install/include/Geant4/evtdefs.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4PrimaryVertex.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4PrimaryParticle.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4DCofThisEvent.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VDigiCollection.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4TrajectoryContainer.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VTrajectory.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VUserEventInformation.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4EventManager.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4StackManager.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4UserStackingAction.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4ClassificationOfNewTrack.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4StackedTrack.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4TrackStack.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4SmartTrackStack.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4PrimaryTransformer.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4ParticleTable.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4ParticleTableIterator.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4ParticleTable.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4TrackingManager.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4SteppingManager.hh \
+ /home/barnett/software/geant4-install/include/Geant4/Randomize.hh \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/Randomize.h \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/DualRand.h \
+ /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/RandomEngine.h \
  /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/RandomEngine.icc \
  /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/JamesRandom.h \
  /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/MixMaxRng.h \
@@ -291,12 +413,6 @@ CMakeFiles/sim.dir/action.cc.o: /home/barnett/electron_gun/action.cc \
  /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/Random.h \
  /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/Random.icc \
  /home/barnett/software/geant4-install/include/Geant4/CLHEP/Utility/memory.h \
- /usr/include/c++/11/memory \
- /usr/include/c++/11/bits/stl_raw_storage_iter.h \
- /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
- /usr/include/c++/11/bits/shared_ptr_atomic.h \
- /usr/include/c++/11/backward/auto_ptr.h \
- /usr/include/c++/11/pstl/glue_memory_defs.h \
  /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.icc \
  /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/RandBreitWigner.h \
  /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/RandFlat.h \
@@ -327,16 +443,68 @@ CMakeFiles/sim.dir/action.cc.o: /home/barnett/electron_gun/action.cc \
  /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/RandPoissonQ.icc \
  /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/RandStudentT.h \
  /home/barnett/software/geant4-install/include/Geant4/CLHEP/Random/RandStudentT.icc \
- /usr/include/c++/11/math.h /home/barnett/electron_gun/run.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4UserRunAction.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4Run.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4Profiler.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4Profiler.icc \
- /home/barnett/software/geant4-install/include/Geant4/PTL/Globals.hh \
- /home/barnett/software/geant4-install/include/Geant4/PTL/Types.hh \
- /home/barnett/software/geant4-install/include/Geant4/PTL/Utility.hh \
- /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
- /usr/include/c++/11/bits/stl_multiset.h \
+ /home/barnett/software/geant4-install/include/Geant4/G4Navigator.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4GRSVolume.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4GRSVolume.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4GRSSolid.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4GRSSolid.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4TouchableHistoryHandle.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4NormalNavigation.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VSolid.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VSolid.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4AuxiliaryNavServices.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4AuxiliaryNavServices.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4NormalNavigation.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4VoxelNavigation.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4NavigationLogger.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4BlockingList.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4BlockingList.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4SmartVoxelProxy.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4SmartVoxelProxy.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4SmartVoxelNode.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4SmartVoxelNode.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4SmartVoxelHeader.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4SmartVoxelHeader.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4VoxelNavigation.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4ParameterisedNavigation.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VPVParameterisation.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VVolumeMaterialScanner.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4ParameterisedNavigation.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4ReplicaNavigation.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4ReplicaNavigation.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4RegularNavigation.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VExternalNavigation.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4Navigator.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4ProcessManager.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VProcess.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4PhysicsTable.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4PhysicsTable.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4VParticleChange.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VParticleChange.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4ForceCondition.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4GPILSelection.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4ParticleChange.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4ParticleChange.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4ProcessType.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4ProcessVector.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4ProcessVector.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4ProcessManager.icc \
+ /home/barnett/software/geant4-install/include/Geant4/G4NoProcess.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4UserSteppingAction.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4VSteppingVerbose.hh \
+ /home/barnett/software/geant4-install/include/Geant4/trkgdefs.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4TrackingMessenger.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4UImessenger.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4UIdirectory.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4UIcommand.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4UIparameter.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4UItokenNum.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4ApplicationState.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4UserTrackingAction.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4RunManagerKernel.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4Event.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4PrimaryVertex.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4PrimaryParticle.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4AnalysisManager.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \
@@ -367,12 +535,6 @@ CMakeFiles/sim.dir/action.cc.o: /home/barnett/electron_gun/action.cc \
  /home/barnett/software/geant4-install/include/Geant4/G4THnManager.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4THnManager.icc \
  /home/barnett/software/geant4-install/include/Geant4/G4THnMessenger.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4UImessenger.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4UIdirectory.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4UIcommand.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4UIparameter.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4UItokenNum.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4ApplicationState.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4THnToolsManager.icc \
  /home/barnett/software/geant4-install/include/Geant4/G4THnMessenger.icc \
  /home/barnett/software/geant4-install/include/Geant4/G4Tokenizer.hh \
@@ -402,15 +564,4 @@ CMakeFiles/sim.dir/action.cc.o: /home/barnett/electron_gun/action.cc \
  /home/barnett/software/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc \
  /home/barnett/software/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
  /home/barnett/software/geant4-install/include/Geant4/G4GenericFileManager.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4GenericFileManager.icc \
- /home/barnett/electron_gun/event.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4UserEventAction.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4Event.hh \
- /home/barnett/software/geant4-install/include/Geant4/evtdefs.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4HCofThisEvent.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4VHitsCollection.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4DCofThisEvent.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4VDigiCollection.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4TrajectoryContainer.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4VTrajectory.hh \
- /home/barnett/software/geant4-install/include/Geant4/G4VUserEventInformation.hh
+ /home/barnett/software/geant4-install/include/Geant4/G4GenericFileManager.icc

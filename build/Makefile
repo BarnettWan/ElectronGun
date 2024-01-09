@@ -214,6 +214,30 @@ detector.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/detector.cc.s
 .PHONY : detector.cc.s
 
+event.o: event.cc.o
+.PHONY : event.o
+
+# target to build an object file
+event.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/event.cc.o
+.PHONY : event.cc.o
+
+event.i: event.cc.i
+.PHONY : event.i
+
+# target to preprocess a source file
+event.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/event.cc.i
+.PHONY : event.cc.i
+
+event.s: event.cc.s
+.PHONY : event.s
+
+# target to generate assembly for a file
+event.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/event.cc.s
+.PHONY : event.cc.s
+
 generator.o: generator.cc.o
 .PHONY : generator.o
 
@@ -329,6 +353,9 @@ help:
 	@echo "... detector.o"
 	@echo "... detector.i"
 	@echo "... detector.s"
+	@echo "... event.o"
+	@echo "... event.i"
+	@echo "... event.s"
 	@echo "... generator.o"
 	@echo "... generator.i"
 	@echo "... generator.s"

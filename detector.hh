@@ -3,6 +3,9 @@
 
 #include "G4VSensitiveDetector.hh"
 #include "G4RunManager.hh"
+#include "G4Event.hh"
+#include "G4PrimaryVertex.hh"
+#include "G4PrimaryParticle.hh"
 
 #include "G4AnalysisManager.hh" 
 

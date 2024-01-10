@@ -1,4 +1,4 @@
- #ifndef CONSTRUCTION_HH
+#ifndef CONSTRUCTION_HH
 #define CONSTRUCTION_HH
 
 #include "G4VUserDetectorConstruction.hh"

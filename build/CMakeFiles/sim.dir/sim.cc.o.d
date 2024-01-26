@@ -624,7 +624,12 @@ CMakeFiles/sim.dir/sim.cc.o: /home/barnett/electron_gun/sim.cc \
  /home/barnett/software/geant4-install/include/Geant4/G4Pow.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4Exp.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4SystemOfUnits.hh \
- /home/barnett/electron_gun/detector.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4Tubs.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4SubtractionSolid.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4BooleanSolid.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4DisplacedSolid.hh \
+ /home/barnett/software/geant4-install/include/Geant4/G4BooleanSolid.icc \
+ /usr/include/c++/11/math.h /home/barnett/electron_gun/detector.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4VReadOutGeometry.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4SensitiveVolumeList.hh \
@@ -769,7 +774,7 @@ CMakeFiles/sim.dir/sim.cc.o: /home/barnett/electron_gun/sim.cc \
  /home/barnett/software/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4ParticleTable.hh \
  /home/barnett/software/geant4-install/include/Geant4/Randomize.hh \
- /usr/include/c++/11/math.h /home/barnett/electron_gun/run.hh \
+ /home/barnett/electron_gun/run.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4UserRunAction.hh \
  /home/barnett/software/geant4-install/include/Geant4/G4Run.hh \
  /home/barnett/electron_gun/event.hh \

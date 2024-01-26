@@ -872,6 +872,15 @@ CMakeFiles/sim.dir/construction.cc.o: ../construction.cc \
   /home/barnett/software/geant4-install/include/Geant4/G4Pow.hh \
   /home/barnett/software/geant4-install/include/Geant4/G4Exp.hh \
   /home/barnett/software/geant4-install/include/Geant4/G4SystemOfUnits.hh \
+  /home/barnett/software/geant4-install/include/Geant4/G4Tubs.hh \
+  /home/barnett/software/geant4-install/include/Geant4/G4Tubs.icc \
+  /home/barnett/software/geant4-install/include/Geant4/G4SubtractionSolid.hh \
+  /home/barnett/software/geant4-install/include/Geant4/G4BooleanSolid.hh \
+  /home/barnett/software/geant4-install/include/Geant4/G4DisplacedSolid.hh \
+  /home/barnett/software/geant4-install/include/Geant4/G4AffineTransform.hh \
+  /home/barnett/software/geant4-install/include/Geant4/G4AffineTransform.icc \
+  /home/barnett/software/geant4-install/include/Geant4/G4BooleanSolid.icc \
+  /usr/include/c++/11/math.h \
   ../detector.hh \
   /home/barnett/software/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
   /home/barnett/software/geant4-install/include/Geant4/G4VHit.hh \
@@ -920,8 +929,6 @@ CMakeFiles/sim.dir/construction.cc.o: ../construction.cc \
   /home/barnett/software/geant4-install/include/Geant4/G4SensitiveVolumeList.hh \
   /home/barnett/software/geant4-install/include/Geant4/G4TouchableHistory.hh \
   /home/barnett/software/geant4-install/include/Geant4/G4NavigationHistory.hh \
-  /home/barnett/software/geant4-install/include/Geant4/G4AffineTransform.hh \
-  /home/barnett/software/geant4-install/include/Geant4/G4AffineTransform.icc \
   /home/barnett/software/geant4-install/include/Geant4/G4NavigationLevel.hh \
   /home/barnett/software/geant4-install/include/Geant4/G4NavigationLevelRep.hh \
   /home/barnett/software/geant4-install/include/Geant4/G4NavigationLevelRep.icc \
@@ -4031,6 +4038,12 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
   /home/barnett/software/geant4-install/include/Geant4/G4Pow.hh \
   /home/barnett/software/geant4-install/include/Geant4/G4Exp.hh \
   /home/barnett/software/geant4-install/include/Geant4/G4SystemOfUnits.hh \
+  /home/barnett/software/geant4-install/include/Geant4/G4Tubs.hh \
+  /home/barnett/software/geant4-install/include/Geant4/G4SubtractionSolid.hh \
+  /home/barnett/software/geant4-install/include/Geant4/G4BooleanSolid.hh \
+  /home/barnett/software/geant4-install/include/Geant4/G4DisplacedSolid.hh \
+  /home/barnett/software/geant4-install/include/Geant4/G4BooleanSolid.icc \
+  /usr/include/c++/11/math.h \
   ../detector.hh \
   /home/barnett/software/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
   /home/barnett/software/geant4-install/include/Geant4/G4VReadOutGeometry.hh \
@@ -4185,7 +4198,6 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
   /home/barnett/software/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
   /home/barnett/software/geant4-install/include/Geant4/G4ParticleTable.hh \
   /home/barnett/software/geant4-install/include/Geant4/Randomize.hh \
-  /usr/include/c++/11/math.h \
   ../run.hh \
   /home/barnett/software/geant4-install/include/Geant4/G4UserRunAction.hh \
   /home/barnett/software/geant4-install/include/Geant4/G4Run.hh \
@@ -4228,8 +4240,6 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
 /home/barnett/software/geant4-install/include/Geant4/G4PolyconeSide.hh:
 
 /home/barnett/software/geant4-install/include/Geant4/G4Ellipsoid.hh:
-
-/home/barnett/software/geant4-install/include/Geant4/G4Tubs.hh:
 
 /home/barnett/software/geant4-install/include/Geant4/G4Trd.icc:
 
@@ -4377,8 +4387,6 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
 
 ../physics.cc:
 
-../generator.cc:
-
 ../event.cc:
 
 ../detector.cc:
@@ -4451,8 +4459,6 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
 
 /home/barnett/software/geant4-install/include/Geant4/G4SteppingManager.hh:
 
-/home/barnett/software/geant4-install/include/Geant4/G4TrackingManager.hh:
-
 /home/barnett/software/geant4-install/include/Geant4/G4ViewerList.hh:
 
 /usr/include/c++/11/bits/regex_constants.h:
@@ -4488,8 +4494,6 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
 /home/barnett/software/geant4-install/include/Geant4/G4NavigationLevelRep.hh:
 
 /home/barnett/software/geant4-install/include/Geant4/G4NavigationLevel.hh:
-
-/home/barnett/software/geant4-install/include/Geant4/G4AffineTransform.hh:
 
 /usr/include/x86_64-linux-gnu/sys/ucontext.h:
 
@@ -4552,6 +4556,20 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
 /home/barnett/software/geant4-install/include/Geant4/G4VSensitiveDetector.hh:
 
 ../detector.hh:
+
+../generator.cc:
+
+/home/barnett/software/geant4-install/include/Geant4/G4BooleanSolid.icc:
+
+/home/barnett/software/geant4-install/include/Geant4/G4AffineTransform.hh:
+
+/home/barnett/software/geant4-install/include/Geant4/G4TrackingManager.hh:
+
+/home/barnett/software/geant4-install/include/Geant4/G4DisplacedSolid.hh:
+
+/home/barnett/software/geant4-install/include/Geant4/G4SubtractionSolid.hh:
+
+/home/barnett/software/geant4-install/include/Geant4/G4Tubs.hh:
 
 /home/barnett/software/geant4-install/include/Geant4/G4ICRU90StoppingData.hh:
 
@@ -5716,6 +5734,8 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
 /home/barnett/software/geant4-install/include/Geant4/G4TP1ToolsManager.hh:
 
 /home/barnett/software/geant4-install/include/Geant4/tools/histo/h1:
+
+/home/barnett/software/geant4-install/include/Geant4/G4BooleanSolid.hh:
 
 /home/barnett/software/geant4-install/include/Geant4/CLHEP/Vector/RotationY.h:
 
